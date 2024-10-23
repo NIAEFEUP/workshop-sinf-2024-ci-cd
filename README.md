@@ -44,3 +44,10 @@ After this has been achieved, you will need to add [a new article](https://raw.g
 >
 > 1. Don't forget to enable GitHub Pages in your repository settings. Go to *Settings* > *Pages* and change *Build and Deployment* > *Source* to *GitHub Actions*.
 > 2. Don't forget to change `repositoryName` in `astro.config.mjs` to the name of your repository.
+
+## A possible solution
+
+In case you get stuck or are just curious, a possible solution is available at [limwa/workshop-ci-cd-sinf-2024](https://github.com/limwa/workshop-ci-cd-sinf-2024).
+
+You can also check all Actions executions for that repository [here](https://github.com/limwa/workshop-ci-cd-sinf-2024/actions).
+The resulting pages deployment is available [here](https://limwa.github.io/workshop-ci-cd-sinf-2024/).

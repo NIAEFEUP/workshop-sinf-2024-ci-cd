@@ -1,54 +1,31 @@
-# Astro Starter Kit: Basics
+# Workshop CI/CD with Github Actions (SINF 2024)
 
-```sh
-npm create astro@latest -- --template basics
-```
+In this workshop, you will implement a CI/CD pipeline to achieve the following tasks:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+(on pull requests and pushes to `main`)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- Lint the code
+- Check the formatting of the code
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+(only on pushes to `main`)
+- Build the website distribution
+- Upload it to Github Pages
 
-## 🚀 Project Structure
+After this has been achieved, you will need to add [a new article](https://slides.niaefeup.pt/gh-actions-workshop-sinf2024/assets/02-continuous-newspaper-enhances-efficiency-with-ci-cd.md) to the website and create a pull request to add it to the main branch.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Useful links
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- [Presentation](https://slides.niaefeup.pt/gh-actions-workshop-sinf2024/)
+- [Github Actions general documentation](https://docs.github.com/en/actions)
+- [Github Actions workflow syntax](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions)
+- [Github Actions workflow contexts](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/accessing-contextual-information-about-workflow-runs)
+- [Github Actions marketplace](https://github.com/marketplace?type=actions)
+- [Astro documentation for deploying to Github Pages](https://docs.astro.build/en/guides/deploy/github/)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Useful commands
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- `npm run setup`: Initial setup of the project
+- `npm run lint`: Lint the code in the project
+- `npm run build`: Build the website distribution
+- `npm run format:check`: Check if the code in the project is properly formatted
+- `npm run format:write`: Format the code in the project

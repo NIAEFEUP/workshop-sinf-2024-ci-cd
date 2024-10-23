@@ -22,3 +22,5 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+/02-continuous-newspaper-enhances-efficiency-with-ci-cd.md

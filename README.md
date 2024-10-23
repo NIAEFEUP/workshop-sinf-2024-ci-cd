@@ -11,7 +11,7 @@ In this workshop, you will implement a CI/CD pipeline to achieve the following t
 - Build the website distribution
 - Upload it to Github Pages
 
-After this has been achieved, you will need to add [a new article](https://slides.niaefeup.pt/gh-actions-workshop-sinf2024/assets/02-continuous-newspaper-enhances-efficiency-with-ci-cd.md) to the website and create a pull request to add it to the main branch.
+After this has been achieved, you will need to add [a new article](https://raw.githubusercontent.com/NIAEFEUP/slides/refs/heads/master/gh-actions-workshop-sinf2024/practice/02-continuous-newspaper-enhances-efficiency-with-ci-cd.md) to the website and create a pull request to add it to the main branch.
 
 ## Useful links
 

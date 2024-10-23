@@ -29,3 +29,18 @@ After this has been achieved, you will need to add [a new article](https://raw.g
 - `npm run build`: Build the website distribution
 - `npm run format:check`: Check if the code in the project is properly formatted
 - `npm run format:write`: Format the code in the project
+
+## Tips!
+
+- The following actions might be useful:
+
+  - [`actions/checkout`](https://github.com/actions/checkout): Checkout a repository
+  - [`actions/setup-node`](https://github.com/actions/setup-node): Setup Node.js
+  - [`actions/upload-pages-artifact`](https://github.com/actions/upload-pages-artifact): Upload a GitHub Pages artifact
+  - [`actions/deploy-pages`](https://github.com/actions/deploy-pages): Deploy a GitHub Pages artifact to GitHub Pages
+  - [`actions/cache`](https://github.com/actions/cache): Cache dependencies
+
+> [!CAUTION]
+>
+> 1. Don't forget to enable GitHub Pages in your repository settings. Go to *Settings* > *Pages* and change *Build and Deployment* > *Source* to *GitHub Actions*.
+> 2. Don't forget to change `repositoryName` in `astro.config.mjs` to the name of your repository.

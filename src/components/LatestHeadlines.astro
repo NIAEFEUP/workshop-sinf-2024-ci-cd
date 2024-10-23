@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import Link from "./Link.astro";
 
 const articleEntries = await getCollection('articles');
 const links = articleEntries.map(entry => ({
@@ -12,6 +13,6 @@ const links = articleEntries.map(entry => ({
 
 <ul>
     {links.map(link => (
-        <li><a href={link.href}>{link.title} by {link.author}</a></li>
+        <li><Link href={link.href}>{link.title} by {link.author}</Link></li>
     ))}
 </ul>
